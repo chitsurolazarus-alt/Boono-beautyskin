@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bono BeautySkin - Your Skin, My Passion</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <div class="logo">
+                    <div class="logo-icon">🌸</div>
+                    <div class="logo-text">
+                        <h1>Bono<span>BeautySkin</span></h1>
+                        <p class="slogan">Your skin my passion</p>
+                    </div>
+                </div>
+                
+                <div class="nav-toggle" id="navToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+                
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="#home"><i class="fas fa-home"></i> Home</a></li>
+                    <li><a href="#products"><i class="fas fa-shopping-bag"></i> Products</a></li>
+                    <li><a href="#before-after"><i class="fas fa-images"></i> Transformations</a></li>
+                    <li><a href="#about"><i class="fas fa-star"></i> About Us</a></li>
+                    <li><a href="#contact"><i class="fas fa-envelope"></i> Contact</a></li>
+                    <li class="cart-icon">
+                        <a href="#contact"><i class="fas fa-shopping-cart"></i> 
+                            <span class="cart-count">0</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h2>Discover Radiant Skin</h2>
+                    <h1>Premium Beauty <span class="highlight">Essentials</span></h1>
+                    <p class="hero-subtitle">Experience the magic of nature-infused skincare that transforms your complexion. Our scientifically-backed formulas deliver visible results.</p>
+                    <div class="hero-buttons">
+                        <a href="#products" class="btn btn-primary">View Products</a>
+                        <a href="#before-after" class="btn btn-secondary">View Results</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="hero-image-container">
+                        <div class="product-badge">BEST SELLER</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section id="products" class="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="highlight">Beauty</span> Collection</h2>
+                <p>Premium skincare essentials for every skin type</p>
+            </div>
+            
+            <div class="products-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('images/products/product1.jpg');">
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                        <span class="product-badge-new">NEW</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Body Lotion</h3>
+                        <p>Vitamin C enriched lotion for radiant skin. Formulated with natural antioxidants.</p>
+                        <div class="inquiry-button">
+                            <a href="#contact" class="btn-inquiry">
+                                <i class="fas fa-info-circle"></i> Inquire Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('images/products/product2.jpg');">
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Soap bar</h3>
+                        <p>Deep cleans the skin freeing it from acne and imbalance</p>
+                        <div class="inquiry-button">
+                            <a href="#contact" class="btn-inquiry">
+                                <i class="fas fa-info-circle"></i> Inquire Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('images/products/product3.jpg');">
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                        <span class="product-badge-popular">POPULAR</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Scrub</h3>
+                        <p> This removes dirt, exfoliate and clean the skin.</p>
+                        <div class="inquiry-button">
+                            <a href="#contact" class="btn-inquiry">
+                                <i class="fas fa-info-circle"></i> Inquire Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('images/products/product4.jpg');">
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Body Oil</h3>
+                        <p>This will hydrate and nourish your skin, it will keep the skin moisture, soften dry skin and give you a glow.</p>
+                        <div class="inquiry-button">
+                            <a href="#contact" class="btn-inquiry">
+                                <i class="fas fa-info-circle"></i> Inquire Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('images/products/product5.jpg');">
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                        <span class="product-badge-new">NEW</span>
+                    </div>
+                    <div class="product-info">
+                        <h3>Soap bar</h3>
+                        <p>Deep cleans the skin freeing it from acne and imbalance.</p>
+                        <div class="inquiry-button">
+                            <a href="#contact" class="btn-inquiry">
+                                <i class="fas fa-info-circle"></i> Inquire Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card">
+                    <div class="product-image" style="background-image: url('images/products/product6.jpg');">
+                        <div class="product-overlay">
+                            <button class="quick-view">Quick View</button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bonos Beauty Combi</h3>
+                        <p>Get everything with all just for as little R1500.</p>
+                        <div class="inquiry-button">
+                            <a href="#contact" class="btn-inquiry">
+                                <i class="fas fa-info-circle"></i> Inquire Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="price-note">
+                <p><i class="fas fa-comment-dots"></i> <strong>Note:</strong> Prices available upon request. Contact us for personalized quotes and special offers!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Updated Before & After Section - 11 Transformations with Carousel -->
+    <section id="before-after" class="before-after">
+        <div class="container">
+            <div class="section-header">
+                <h2>Real <span class="highlight">Transformations</span></h2>
+                <p>See 11 amazing results from our happy customers</p>
+                <div class="transform-count">
+                    <i class="fas fa-images"></i> 11 Documented Transformations
+                </div>
+            </div>
+            
+            <!-- Transformation Carousel -->
+            <div class="transformation-carousel">
+                <button class="carousel-btn prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                
+                <div class="carousel-container">
+                    <div class="carousel-track">
+                        <!-- Transformation 1 -->
+                        <div class="carousel-slide active">
+                            <div class="transformation-card">
+                                <div class="slide-number">1 / 11</div>
+                                <div class="transformation-header">
+                                    <h3><i class="fas fa-sparkles"></i> Transformation #1</h3>
+                                    <span class="duration">8 Weeks</span>
+                                </div>
+                                <div class="before-after-comparison">
+                                    <div class="before-image">
+                                        <div class="image-container" style="background-image: url('images/transformations/before1.jpg');">
+                                            <div class="image-overlay">
+                                                <span class="badge before-badge">BEFORE</span>
+                                            </div>
+                                        </div>
+                                        <div class="image-info">
+                                            <h4>Initial Condition</h4>
+                                            <p>Acne, scarring & hyperpigmentation</p>
+                                        </div>
+                                    </div>
+                                    <div class="vs-circle">
+                                        <span>VS</span>
+                                    </div>
+                                    <div class="after-image">
+                                        <div class="image-container" style="background-image: url('images/transformations/after1.jpg');">
+                                            <div class="image-overlay">
+                                                <span class="badge after-badge">AFTER</span>
+                                            </div>
+                                        </div>
+                                        <div class="image-info">
+                                            <h4>After Treatment</h4>
+                                            <p>Clear, even-toned & glowing skin</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-box">
+                                    <div class="quote-icon">
+                                        <i class="fas fa-quote-right"></i>
+                                    </div>
+                                    <p class="testimonial-text">"After years of struggling with acne, Bono BeautySkin completely transformed my skin. The results speak for themselves!"</p>
+                                    <div class="customer-info">
+                                        <div class="customer-avatar">
+                                            <i class="fas fa-user-circle"></i>
+                                        </div>
+                                        <div class="customer-details">
+                                            <h5>Sarah M.</h5>
+                                            <p>Age 28 • 8-week journey</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Transformation 2 -->
+                        <div class="carousel-slide">
+                            <div class="transformation-card">
+                                <div class="slide-number">2 / 11</div>
+                                <div class="transformation-header">
+                                    <h3><i class="fas fa-sparkles"></i> Transformation #2</h3>
+                                    <span class="duration">6 Weeks</span>
+                                </div>
+                                <div class="before-after-comparison">
+                                    <div class="before-image">
+                                        <div class="image-container" style="background-image: url('images/transformations/before2.jpg');">
+                                            <div class="image-overlay">
+                                                <span class="badge before-badge">BEFORE</span>
+                                            </div>
+                                        </div>
+                                        <div class="image-info">
+                                            <h4>Initial Condition</h4>
+                                            <p>Dull complexion & uneven texture</p>
+                                        </div>
+                                    </div>
+                                    <div class="vs-circle">
+                                        <span>VS</span>
+                                    </div>
+                                    <div class="after-image">
+                                        <div class="image-container" style="background-image: url('images/transformations/after2.jpg');">
+                                            <div class="image-overlay">
+                                                <span class="badge after-badge">AFTER</span>
+                                            </div>
+                                        </div>
+                                        <div class="image-info">
+                                            <h4>After Treatment</h4>
+                                            <p>Radiant & smooth skin texture</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-box">
+                                    <div class="quote-icon">
+                                        <i class="fas fa-quote-right"></i>
+                                    </div>
+                                    <p class="testimonial-text">"I've never seen my skin glow like this before! The transformation in just 6 weeks is unbelievable."</p>
+                                    <div class="customer-info">
+                                        <div class="customer-avatar">
+                                            <i class="fas fa-user-circle"></i>
+                                        </div>
+                                        <div class="customer-details">
+                                            <h5>Lisa K.</h5>
+                                            <p>Age 32 • 6-week journey</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Transformation 3 -->
+                        <div class="carousel-slide">
+                            <div class="transformation-card">
+                                <div class="slide-number">3 / 11</div>
+                                <div class="transformation-header">
+                                    <h3><i class="fas fa-sparkles"></i> Transformation #3</h3>
+                                    <span class="duration">10 Weeks</span>
+                                </div>
+                                <div class="before-after-comparison">
+                                    <div class="before-image">
+                                        <div class="image-container" style="background-image: url('images/transformations/before3.jpg');">
+                                            <div class="image-overlay">
+                                                <span class="badge before-badge">BEFORE</span>
+                                            </div>
+                                        </div>
+                                        <div class="image-info">
+                                            <h4>Initial Condition</h4>
+                                            <p>Severe hyperpigmentation</p>
+                                        </div>
+                                    </div>
+                                    <div class="vs-circle">
+                                        <span>VS</span>
+                                    </div>
+                                    <div class="after-image">
+                                        <div class="image-container" style="background-image: url('images/transformations/after3.jpg');">
+                                            <div class="image-overlay">
+                                                <span class="badge after-badge">AFTER</span>
+                                            </div>
+                                        </div>
+                                        <div class="image-info">
+                                            <h4>After Treatment</h4>
+                                            <p>Even skin tone restored</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-box">
+                                    <div class="quote-icon">
+                                        <i class="fas fa-quote-right"></i>
+                                    </div>
+                                    <p class="testimonial-text">"My dark spots are completely gone! Finally found a solution that actually works on hyperpigmentation."</p>
+                                    <div class="customer-info">
+                                        <div class="customer-avatar">
+                                            <i class="fas fa-user-circle"></i>
+                                        </div>
+                                        <div class="customer-details">
+                                            <h5>Amanda T.</h5>
+                                            <p>Age 35 • 10-week journey</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Transformation 4 -->
+                        <div class="carousel-slide">
+                            <div class="transformation-card">
+                                <div class="slide-number">4 / 11</div>
+                                <div class="transformation-header">
+                                    <h3><i class="fas fa-sparkles"></i> Transformation #4</h3>
+                                    <span class="duration">12 Weeks</span>
+                                </div>
+                                <div class="before-after-comparison">
+                                    <div class="before-image">
+                                        <div class="image-container" style="background-image: url('images/transformations/before4.jpg');">
+                                            <div class="image-overlay">
+                                                <span class="badge before-badge">BEFORE</span>
+                                            </div>
+                                        </div>
+                                        <div class="image-info">
+                                            <h4>Initial Condition</h4>
+                                            <p>Chronic dry & flaky skin</p>
+                                        </div>
+                                    </div>
+                                    <div class="vs-circle">
+                                        <span>VS</span>
+                                    </div>
+                                    <div class="after-image">
+                                        <div class="image-container" style="background-image: url('images/transformations/after4.jpg');">
+                                            <div class="image-overlay">
+                                                <span class="badge after-badge">AFTER</span>
+                                            </div>
+                                        </div>
+                                        <div class="image-info">
+                                            <h4>After Treatment</h4>
+                                            <p>Deeply hydrated & supple</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-box">
+                                    <div class="quote-icon">
+                                        <i class="fas fa-quote-right"></i>
+                                    </div>
+                                    <p class="testimonial-text">"My chronic dry skin is finally under control. The hydrating products are absolute miracle workers!"</p>
+                                    <div class="customer-info">
+                                        <div class="customer-avatar">
+                                            <i class="fas fa-user-circle"></i>
+                                        </div>
+                                        <div class="customer-details">
+                                            <h5>Jessica L.</h5>
+                                            <p>Age 29 • 12-week journey</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Transformation 5 -->
+                        <div class="carousel-slide">
+                            <div class="transformation-card">
+                                <div class="slide-number">5 / 11</div>
+                                <div class="transformation-header">
+                                    <h3><i class="fas fa-sparkles"></i> Transformation #5</h3>
+                                    <span class="duration">8 Weeks</span>
+                                </div>
+                                <div class="before-after-comparison">
+                                    <div class="before-image">
+                                        <div class="image-container" style="background-image: url('images/transformations/before5.jpg');">
+                                            <div class="image-overlay">
+                                                <span class="badge before-badge">BEFORE</span>
+                                            </div>
+                                        </div>
+                                        <div class="image-info">
+                                            <h4>Initial Condition</h4>
+                                            <p>Redness & sensitivity</p>
+                                        </div>
+                                    </div>
+                                    <div class="vs-circle">
+                                        <span>VS</span>
+                                    </div>
+                                    <div class="after-image">
+                                        <div class="image-container" style="background-image: url('images/transformations/after5.jpg');">
+                                            <div class="image-overlay">
+                                                <span class="badge after-badge">AFTER</span>
+                                            </div>
+                                        </div>
+                                        <div class="image-info">
+                                            <h4>After Treatment</h4>
+                                            <p>Calm & balanced complexion</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-box">
+                                    <div class="quote-icon">
+                                        <i class="fas fa-quote-right"></i>
+                                    </div>
+                                    <p class="testimonial-text">"As someone with extremely sensitive skin, I was amazed at how gentle yet effective these products are!"</p>
+                                    <div class="customer-info">
+                                        <div class="customer-avatar">
+                                            <i class="fas fa-user-circle"></i>
+                                        </div>
+                                        <div class="customer-details">
+                                            <h5>Rachel W.</h5>
+                                            <p>Age 31 • 8-week journey</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Transformation 6 -->
+                        <div class="carousel-slide">
+                            <div class="transformation-card">
+                                <div class="slide-number">6 / 11</div>
+                                <div class="transformation-header">
+                                    <h3><i class="fas fa-sparkles"></i> Transformation #6</h3>
+                                    <span class="duration">14 Weeks</span>
+                                </div>
+                                <div class="before-after-comparison">
+                                    <div class="before-image">
+                                        <div class="image-container" style="background-image: url('images/transformations/before6.jpg');">
+                                            <div class="image-overlay">
+                                                <span class="badge before-badge">BEFORE</span>
+                                            </div>
+                                        </div>
+                                        <div class="image-info">
+                                            <h4>Initial Condition</h4>
+                                            <p>Fine lines & wrinkles</p>
+                                        </div>
+                                    </div>
+                                    <div class="vs-circle">
+                                        <span>VS</span>
+                                    </div>
+                                    <div class="after-image">
+                                        <div class="image-container" style="background-image: url('images/transformations/after6.jpg');">
+                                            <div class="image-overlay">
+                                                <span class="badge after-badge">AFTER</span>
+                                            </div>
+                                        </div>
+                                        <div class="image-info">
+                                            <h4>After Treatment</h4>
+                                            <p>Youthful & firm appearance</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="testimonial-box">
+                                    <div class="quote-icon">
+                                        <i class="fas fa-quote-right"></i>
+                                    </div>
+                                    <p class="testimonial-text">"At 45, I thought nothing could help with my wrinkles. Bono BeautySkin proved me completely wrong!"</p>
+                                    <div class="customer-info">
+                                        <div class="customer-avatar">
+                                            <i class="fas fa-user-circle"></i>
+                                        </div>
+                                        <div class="customer-details">
+                                            <h5>Michelle B.</h5>
+                                            <p>Age 45 • 14-week journey</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Add more transformations 7-11 as needed -->
+                        
+                    </div>
+                </div>
+                
+                <button class="carousel-btn next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+            
+            <!-- Carousel Indicators -->
+            <div class="carousel-indicators">
+                <div class="indicators-container">
+                    <!-- Indicators will be generated by JavaScript -->
+                </div>
+                <div class="carousel-controls">
+                    <button class="control-btn auto-play-btn">
+                        <i class="fas fa-pause"></i> Auto-play
+                    </button>
+                    <button class="control-btn view-all-btn" onclick="showAllTransformations()">
+                        <i class="fas fa-th"></i> View All
+                    </button>
+                </div>
+            </div>
+            
+            <!-- Stats Banner -->
+            <div class="stats-banner">
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-images"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>11</h3>
+                        <p>Documented Transformations</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>100%</h3>
+                        <p>Customer Satisfaction</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>500+</h3>
+                        <p>Happy Customers</p>
+                    </div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <div class="stat-content">
+                        <h3>100%</h3>
+                        <p>Natural Ingredients</p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- View All Gallery (Hidden by default) -->
+            <div class="all-transformations-gallery" id="allTransformations">
+                <div class="gallery-header">
+                    <h3>All 11 Transformations</h3>
+                    <button class="close-gallery" onclick="closeAllTransformations()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="gallery-grid">
+                    <!-- Gallery items will be populated by JavaScript -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Our <span class="highlight">Story</span></h2>
+                    <div class="mission-vision">
+                        <div class="mission">
+                            <h3><i class="fas fa-bullseye"></i> Our Mission</h3>
+                            <p>To empower individuals with premium skincare solutions that enhance natural beauty and boost confidence. We're committed to creating effective, safe, and luxurious products that deliver visible results for all skin types.</p>
+                        </div>
+                        <div class="vision">
+                            <h3><i class="fas fa-eye"></i> Our Vision</h3>
+                            <p>To become South Africa's most trusted beauty brand, recognized for transforming skin health and redefining beauty standards through innovation, quality, and exceptional customer experiences.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="values">
+                        <h3><i class="fas fa-heart"></i> Our Values</h3>
+                        <div class="values-grid">
+                            <div class="value-item">
+                                <i class="fas fa-leaf"></i>
+                                <h4>Natural Ingredients</h4>
+                                <p>Pure, ethically sourced components</p>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-flask"></i>
+                                <h4>Scientifically Proven</h4>
+                                <p>Backed by dermatological research</p>
+                            </div>
+                            <div class="value-item">
+                                <i class="fas fa-hand-holding-heart"></i>
+                                <h4>Cruelty-Free</h4>
+                                <p>Never tested on animals</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In <span class="highlight">Touch</span></h2>
+                <p>We'd love to hear from you</p>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-whatsapp"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>WhatsApp</h3>
+                            <p>066 252 3100</p>
+                            <a href="https://wa.me/27662523100" class="contact-link">Message us now</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>magodabono2@gmail.com</p>
+                            <a href="mailto:magodabono2@gmail.com" class="contact-link">Send an email</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Instagram</h3>
+                            <p>@Bonobeautyskin</p>
+                            <a href="https://instagram.com/Bonobeautyskin" class="contact-link">Follow us</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container">
+                    <form class="contact-form" id="contactForm">
+                        <h3>Send us a Message</h3>
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Your Message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="logo">
+                        <div class="logo-icon">🌸</div>
+                        <div class="logo-text">
+                            <h2>Bono<span>BeautySkin</span></h2>
+                            <p class="slogan">Your skin my passion</p>
+                        </div>
+                    </div>
+                    <p class="footer-description">Premium beauty essentials crafted with passion and expertise. Transform your skincare routine with our scientifically-backed formulas.</p>
+                    <div class="social-links">
+                        <a href="https://instagram.com/Bonobeautyskin" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://wa.me/27662523100" class="social-link">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="mailto:magodabono2@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Products</a></li>
+                        <li><a href="#before-after">Transformations</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Business Hours</h3>
+                    <ul class="business-hours">
+                        <li>Monday - Friday: 8:00 AM - 6:00 PM</li>
+                        <li>Saturday: 9:00 AM - 4:00 PM</li>
+                        <li>Sunday: 10:00 AM - 2:00 PM</li>
+                    </ul>
+                    <div class="payment-methods">
+                        <h4>Contact for Pricing</h4>
+                        <p>Personalized quotes available</p>
+                        <div class="inquiry-cta">
+                            <a href="#contact" class="btn-inquiry-footer">
+                                <i class="fas fa-comment-dots"></i> Request Quote
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Bono BeautySkin. All rights reserved. | <span>Your skin, our passion</span></p>
+                <p class="price-disclaimer"><i class="fas fa-info-circle"></i> All prices are available upon request. Contact us for personalized pricing.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
